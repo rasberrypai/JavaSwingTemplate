@@ -12,7 +12,7 @@ import javax.swing.JFrame;
 public class Run extends JFrame {
 
     /**
-	 * 
+	  basically just your main class
 	 */
 	private static final long serialVersionUID = 1L;
 	public static Window win = new Window();
@@ -25,7 +25,7 @@ public class Run extends JFrame {
         setResizable(false);
         pack();
         
-        setTitle("Title");
+        setTitle("Title"); //exactly what it sounds like
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
